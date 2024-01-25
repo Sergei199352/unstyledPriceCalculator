@@ -1,0 +1,16 @@
+body {
+    background-image:url('image.png');
+    background-size:cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    text-size-adjust: 29sp;
+}
+
+.centralDiv{
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+}
