@@ -8,7 +8,7 @@ function calculatePrice() {
     dailyRate = s/365;
     finalPrice = dailyRate * d;
 
-    document.getElementById("finalPrice").innerHTML = roundToNearest50(finalPrice);
+    document.getElementById("finalPrice").innerHTML = "£"+roundToNearest50(finalPrice );
   }
   function roundToNearest50(num) {
     return Math.round(num / 50) * 50;
