@@ -1,17 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-<script src="javascript\script.js"></script>
-
-<link rel="stylesheet" href="css\stylesheets.css">
-
-
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="javascript/script.js"></script>
+  <link rel="stylesheet" href="css/stylesheets.css">
   <title>Price Calculator</title>
 </head>
 <body>
@@ -27,21 +22,17 @@
     <input type="text" id="salary" name="salary"/><br><br>
     <label for="days">How many days do you think it will take you to make the website?</label>
     <input type="text" id="days" name="days"/><br><br>
-    <input type="submit" value="Calculate your price!"><br><br>
+    <label for="quoteName">Quote Name:</label>
+    <input type="text" id="quoteName" name="quoteName"/><br><br>
+    <button type="button" onclick="storeQuote()">Store Quote</button><br><br>
     <label id="finalPrice">  </label>
   </form>
 </div>
 <div id="image">
-
-
-
-
-
-
+  <div id="quote">
+    <h1>Quote</h1>
+  </div>
 </div>
-
-
-
 
 </body>
 </html>
